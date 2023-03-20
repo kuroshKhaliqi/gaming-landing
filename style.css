@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.logo {
+  width: 8em;
+}
+
+.nav-icon {
+  width: 1.5em;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  margin: 0 0.5em;
+}
+
+.subnav {
+  margin: 0 2em;
+}
+#mainarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5em 0;
+}
+.title {
+  width: 30%;
+  text-align: center;
+}
+
+.par {
+  width: 40%;
+  text-align: center;
+}
+
+.red {
+  color: red;
+  text-decoration: none;
+}
+
+.blue {
+  color: blue;
+  text-decoration: none;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: white;
+}
+.card {
+  width: 30%;
+  margin: 0.5em 0.5em;
+}
+.card img {
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 5em;
+  background-color: #f4f4f4;
+}
+.card-description {
+  padding: 1em;
+}
+
+.result {
+  margin: 3em;
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testamonials {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.usertest {
+  width: 25%;
+  margin: 3em;
+}
+
+.subtest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+}
+.about-me {
+  padding: 1em 3em;
+}
+
+.about-me h1 {
+  margin-bottom: 1em;
+}
+
+.about-me p {
+  line-height: 1.7rem;
+  width: 35%;
+}
+
+.aboutme-middle {
+  margin: 1em 0em;
+}
+
+.btn-more {
+  border-radius: 20px;
+  padding: 1em 2em;
+  background-color: blue;
+  color: white;
+  border: 0;
+  margin-top: 1em;
+}
+
+.about-how {
+  display: flex;
+  justify-content: center;
+  padding: 4em 0;
+}
+
+.abouthowintro {
+  width: 25%;
+}
+
+.abouthowintro h1 {
+  font-size: 3rem;
+}
+.abouthowintro p {
+  margin-top: 1em;
+  line-height: 1.4rem;
+}
+.abouthowprocess {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.process {
+  width: 50%;
+  display: flex;
+  padding: 1em;
+}
+
+.process-icon img {
+  width: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+}
+.contact-intro,
+.contact-form {
+  width: 40%;
+  margin: 0 2.5%;
+}
+.contact-intro img {
+  width: 50px;
+}
+.contact-intro h1 {
+  line-height: 2.5rem;
+  margin-bottom: 0.2em;
+}
+.contact-form input {
+  width: 49%;
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+textarea {
+  width: 100%;
+}
+
+.contact-form button {
+  margin-top: 1em;
+  padding: 1em 2em;
+  border: 0;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.link-container {
+  margin: 0 1.5em;
+  padding: 1em;
+  text-align: center;
+}
+.link-container span {
+  font-weight: bolder;
+  margin: 10em 0;
+}
+.link-container p {
+  margin: 1em 0;
+}
+
+.par {
+  margin: auto;
+  margin-top: 1.5em;
+}
+
+.social-icons img {
+  width: 25px;
+}
+
+.social-icons {
+  margin: auto;
+  width: max-content;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
