@@ -77,7 +77,14 @@ body {
 .card-description {
   padding: 1em;
 }
-
+.btn-action {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  background-color: royalblue;
+  color: white;
+  margin: 1em;
+}
 .result {
   margin: 3em;
   width: 22%;
