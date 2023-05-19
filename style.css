@@ -39,9 +39,16 @@ nav {
   padding-top: 8em;
   padding-bottom: 5em;
 }
+
+.main-title {
+  font-size: 2rem;
+}
+
 .title {
-  width: 30%;
+  width: 70%;
   text-align: center;
+  font-size: 4rem;
+  margin: 1em 0;
 }
 
 .par {
