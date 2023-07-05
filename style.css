@@ -20,6 +20,7 @@ nav {
 
 .nav-icon {
   width: 1.5em;
+  color: white;
 }
 
 .navlink {
@@ -251,4 +252,44 @@ textarea {
   width: max-content;
   margin-top: 1em;
   margin-bottom: 3em;
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .subnav {
+    margin: 1em 0;
+  }
+  #mainarea {
+    padding-top: 16em;
+    width: 100%;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .par {
+    width: 80%;
+  }
+  .card {
+    width: 90%;
+  }
+  .testamonials,
+  .about-how,
+  .links {
+    display: none;
+  }
+  .about-me p {
+    width: 90%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-intro,
+  .contact-form {
+    width: 90%;
+    padding: 3em;
+    margin: 1em 0;
+  }
 }
