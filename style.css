@@ -75,6 +75,10 @@ body {
 .card {
   width: 25%;
   margin: 0.5em 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 .card img {
   width: 100%;
@@ -96,6 +100,7 @@ body {
   background-color: royalblue;
   color: white;
   margin: 1em;
+  margin-top: 2em;
 }
 .result {
   margin: 3em;
@@ -123,8 +128,6 @@ body {
   align-items: center;
 }
 
-.about {
-}
 .about-me {
   padding: 1em 3em;
 }
@@ -312,6 +315,9 @@ textarea {
 
   .card {
     width: 40%;
+  }
+  .card img {
+    width: 100%;
   }
 
   .testamonials,
